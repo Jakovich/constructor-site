@@ -305,15 +305,7 @@ main .content h2 {
     position: absolute;
     top: 0;
 }
-.section h1, .section h2 {
-    color: #000;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: bold;
-    line-height: 1em;
-    margin: 0;
-    text-transform: uppercase;
-}
+
 .section .h-block {
     margin-bottom: 20px;
     padding: 45px 0 40px;
@@ -463,10 +455,9 @@ main .content h2 {
     display: block;
 }
 #constructor {
-    margin-top: 40px;
+    
     min-height: 500px;
     position: relative;
-    padding: 0 40px;
 }
 #constructor.hidden {
     display: none;
@@ -874,39 +865,20 @@ main .content h2 {
     position: relative;
 }
 #popup-select {
-    padding: 10px;
+    
    
 }
 #popup-select .articul {
     bottom: 0;
-    display: block;
+    display: none;
     font-size: 0.8em;
     padding: 2px 10px;
     position: absolute;
     right: 0;
 }
-#popup-select h3 {
-    font-size: 20px;
-    font-style: italic;
-    margin: 0;
-    text-transform: uppercase;
-}
-#popup-select h3 + p {
-    color: #000;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 0;
-}
-#popup-select h4 {
-    color: #fff;
-    display: block;
-    font-style: italic;
-    padding: 20px 0 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 #popup-select ul {
-    background: #fff none repeat scroll 0 0;
+    background: #f05f40 none repeat scroll 0 0;
     border-radius: 10px;
     list-style: none;
     margin: 0;
@@ -914,18 +886,17 @@ main .content h2 {
 }
 #popup-select ul li {
     float: left;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 #popup-select ul li button {
-    background: #fff none repeat scroll 0 0;
-    border: 4px dotted #007536;
+    background: #f05f40 none repeat scroll 0 0;
     padding: 20px 10px;
     position: relative;
     transition: all 0.2s ease-out 0s;
+    border: 3px solid #f05f40;
 }
 #popup-select ul li button:hover {
-    background: #e7f6d2 none repeat scroll 0 0;
-    border: 4px dotted #007536;
+    border: 3px solid #ffffff;
 }
 
 #popup-select[data-target='top'] img {
@@ -1997,8 +1968,10 @@ h2, h3 {
 /*slider*/
 
 .tshirt-slider {
-  width: 980px;
+  width: 1185px;
+  margin: 0 auto;
   position: relative;
+  background-color: #f05f40;
 }
 
 .tshirt-slider::-moz-selection { background: transparent; color: #fff; text-shadow: none; }
