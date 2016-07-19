@@ -206,8 +206,7 @@ html {
 }
 body {
     background: #fff none repeat scroll 0 0;
-    color: #333;
-    font: 300 14px/1.6 "Open Sans",Helvetica,Arial;
+    
     min-height: 100%;
     
     position: relative;
@@ -217,9 +216,7 @@ body {
     /*min-width: 1000px;*/
     /*width: 80%;*/
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #000;
-}
+
 dl {
     margin-bottom: 50px;
 }
@@ -448,12 +445,16 @@ main .content h2 {
     border-bottom: 1px dashed red;
     color: red;
 }
+.default-complects {
+    position: static;
+}
 #file-container {
     background: #fafafa none repeat scroll 0 0;
     border-radius: 4px;
     display: inline-block;
     margin: 30px 0 0;
     padding: 10px;
+    margin-left: 15px;
 }
 .content-wrp {
     display: none;
@@ -680,6 +681,10 @@ main .content h2 {
 #constructor .form-screen.activeSection {
     display: block;
 }
+
+#constructor .step--prev {
+    padding-left: 340px;
+}
 #constructor .tag {
     color: #000;
     display: inline-block;
@@ -694,8 +699,6 @@ main .content h2 {
 #constructor .tag .description {
     display: block;
     line-height: 1.2em;
-    margin-bottom: 15px;
-    margin-top: 10px;
 }
 #constructor .tag .price {
     font-size: 32px;
@@ -1054,9 +1057,9 @@ main .content h2 {
 #constructor .preview, #constructor .preview svg {
     width: 200px;
 }
-#constructor .form {
+/*#constructor .form {
     padding-left: 280px;
-}
+}*/
 }
 
 @media print {
@@ -1984,7 +1987,7 @@ h2, h3 {
 }
 
 .tshirt-preview {
-  display: none;
+  
 }
 
 .short-preview {
@@ -2038,26 +2041,20 @@ h2, h3 {
   position: relative;
 }
 
-#constructor .total-wrp--first {
-  position: absolute;
-  left: -320px;
-  bottom: -15px;
-  padding-top: 0;
-}
-
-#constructor .total-wrp--second {
-  position: absolute;
-  left: -380px;
-  bottom: -15px;
-  padding-top: 0;
-}
 
 #constructor .total-wrp--third {
-  position: absolute;
-  left: -380px;
-  bottom: -65px;
+  
+  
+  
   padding-top: 0;
 
+}
+
+#constructor .total-wrp--price {
+  position: absolute;
+  padding-top: 0;
+  left: 0;
+  bottom: 20px;
 }
 
 .empty {
