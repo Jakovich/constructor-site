@@ -1008,6 +1008,10 @@ main .content h2 {
 #popup-select ul li .active-button {
    border: 3px solid #ffffff;
 }
+
+#popup-select[data-target='bottom'] ul li .active-button {
+  border: 3px solid #ffffff;
+}
 .complectsCountBtn,
 .submitDiscount,
 .choose-file {

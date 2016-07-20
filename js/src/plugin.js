@@ -298,8 +298,17 @@
 		$(document).on('click', '#popup-select button', function()
 		{
 			_this.popupSelect($(this));
-            $(this).addClass('active-button');
 		});
+      
+        $(document).on('click', '.select-shorts button', function() {
+          $('.select-shorts button').removeClass('active-button');
+          $(this).addClass('active-button');
+        });
+      
+        $(document).on('click', '.select-tshirt button', function() {
+          $('.select-tshirt button').removeClass('active-button');
+          $(this).addClass('active-button');
+        });
 
 		this.$element.on('click', '.finishOrder', function()
 		{
