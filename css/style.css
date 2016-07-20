@@ -2042,9 +2042,6 @@ h2, h3 {
 
 
 #constructor .total-wrp--third {
-  
-  
-  
   padding-top: 0;
 
 }
@@ -2058,7 +2055,7 @@ h2, h3 {
   position: absolute;
   padding-top: 0;
   left: 0;
-  bottom: 20px;
+  bottom: -20px;
 }
 
 #constructor .services__block {

@@ -24,11 +24,13 @@
             //color.init();
          
             var $preview = $('.preview');
+            /*
             $preview.stick_in_parent({
                 offset_bottom: 0,
-                offset_top: 20
-            });
-
+                offset_top: 100
+            });*/
+            
+            
 
             $('#constructor').construct({
                 afterStep: function() {
@@ -46,10 +48,10 @@
                     colors: ['#ffffff', '#d3d3d3']
             });*/
 
-            $('#goToConstruct').on('click', function()
+            /*$('#goToConstruct').on('click', function()
             {
                 $('html, body').animate({ scrollTop: $('.construct-anc').offset().top }, 500);
-            });
+            });*/
 
 
 
