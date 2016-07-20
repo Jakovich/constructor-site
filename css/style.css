@@ -171,6 +171,11 @@ table {
   margin: 0 auto;
 }
 
+.color-choice--tshirt {
+    width: 160px;
+    text-align: left;
+}
+
 
 .icon-header-phone, header .phone-block .phone::before, footer .phone-block .phone::before {
     background-image: url("../img/sprite.png");
@@ -374,6 +379,10 @@ main .content h2 {
 .checkbox-dyn {
     width: 50%;
     text-align: left;
+    font-weight: normal;
+}
+.checkbox-dyn label {
+    font-weight: normal;
 }
 .checkbox-dyn .pick-color {
     padding-left: 0 !important;
@@ -529,7 +538,6 @@ main .content h2 {
 }
 #constructor .checkbox-wrp {
     display: inline-block;
-    margin: 0 10px;
 }
 #constructor .checkbox-wrp input {
     display: none;
@@ -559,8 +567,10 @@ main .content h2 {
     width: 14px;
 }
 #constructor .h2-span {
+    font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
     font-style: italic;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 #constructor .h2-span a {
     border-bottom: 1px dashed #2693d1;
@@ -1950,9 +1960,9 @@ h2, h3 {
 
 
 .choice {
-  vertical-align: top;
+  
   text-align: center;
-  display: inline-block;
+  
 }
 
 .choice img {
@@ -1961,7 +1971,7 @@ h2, h3 {
 }
 
 .shirtInserts {
-  width: 300px;
+  
 }
 
 #constructor .total-wrp__first {
@@ -2037,6 +2047,11 @@ h2, h3 {
   
   padding-top: 0;
 
+}
+
+#constructor .checkbox__table {
+    width: 180px;
+    margin: 0 auto;
 }
 
 #constructor .total-wrp--price {
