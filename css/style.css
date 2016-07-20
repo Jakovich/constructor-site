@@ -854,7 +854,7 @@ main .content h2 {
 }
 #constructor .complects tr td,
 #constructor .complects tr th {
-  padding: 10px 12px;
+  padding: 8px;
   text-align: left;
 }
 #constructor .complects tr td {
@@ -868,6 +868,9 @@ main .content h2 {
 }
 #constructor .complects tr td:nth-child(2) input {
   width: 40px;
+}
+#constructor .complects tr td:nth-child(3) input {
+  width: 140px;
 }
 #constructor .complects tr td:last-child {
   font-size: 14px;
@@ -958,7 +961,7 @@ main .content h2 {
 .color-block {
   position: relative;
 }
-#popup-select {}
+
 #popup-select .articul {
   bottom: 0;
   display: none;
@@ -1126,7 +1129,7 @@ main .content h2 {
   font-size: 0.9em;
   font-style: italic;
 }
-@media only screen and (max-width: 1400px) {
+/*@media only screen and (max-width: 1400px) {
   .container,
   .top-nav,
   #content-wrp,
@@ -1139,10 +1142,10 @@ main .content h2 {
   #constructor .preview svg {
     width: 200px;
   }
-  /*#constructor .form {
+  #constructor .form {
     padding-left: 280px;
-}*/
 }
+}*/
 @media print {
   @page {
     margin: 0.5cm;
@@ -2163,3 +2166,30 @@ main .content h2 {
 #constructor .orderInfo label {
   font-weight: normal;
 }
+
+@media (max-width: 1200px) {
+  #constructor .preview svg {
+    width: 200px;
+  }
+  #constructor .complects tr td, #constructor .complects tr th {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #constructor .complects tr td:first-child {
+    padding: 5px 8px;
+    text-align: left;
+  }
+  
+  #constructor .complects tr td:nth-child(2) input {
+  width: 25px;
+  }
+  #constructor .complects tr td:nth-child(3) input {
+    width: 110px;
+  }
+  #constructor .complects tr td:nth-child(4) select {
+   width: 38px;
+  }
+}
+
+

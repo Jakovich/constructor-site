@@ -478,7 +478,7 @@
 			'<td data-tooltip="Нажмите заголовок, чтобы выделить всю колонку"><div class="inline-block"><input data-price="'+backNumber+'" name="complect['+i+'][backNumber]" type="checkbox" id="'+i+'__4" value="да"><label for="'+i+'__4"></label></div></td>' +
 			'<td data-tooltip="Нажмите заголовок, чтобы выделить всю колонку"><div class="inline-block"><input data-price="'+breastNumber+'" name="complect['+i+'][breastNumber]" type="checkbox" id="'+i+'__5" value="да"><label for="'+i+'__5"></label></div></td>' +
 			'<td data-tooltip="Нажмите заголовок, чтобы выделить всю колонку"><div class="inline-block"><input data-price="'+logo+'" name="complect['+i+'][logo]" type="checkbox" id="'+i+'__6" value="да"><label for="'+i+'__6"></label></div></td>' +
-			'<td class="price-td"><input name="complect['+i+'][price]" type="hidden" class="priceInput"><span class="price">1 260</span> .-</td></tr>';
+			'<td class="price-td"><input name="complect['+i+'][price]" type="hidden" class="priceInput"><span class="price">1 260</span>&nbsp;.-</td></tr>';
 		return row;
 	};
 
