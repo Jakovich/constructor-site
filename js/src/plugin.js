@@ -529,7 +529,7 @@
 
 			if(!$btn.hasClass('setted'))
 			{
-				var $row = $el.closest('.row');
+				var $row = $el.closest('.rowJS');
 				if($row.hasClass('thirt'))
 				{
 					color = (ind == 0) ? _this.defColors[0] : _this.defColors[1];
