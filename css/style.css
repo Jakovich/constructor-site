@@ -2061,6 +2061,10 @@ h2, h3 {
   bottom: 20px;
 }
 
+#constructor .services__block {
+    min-height: 226px;
+}
+
 .empty {
   height: 100px;
 }
