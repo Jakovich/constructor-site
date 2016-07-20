@@ -198,7 +198,6 @@
         }
     }
 
-
   $(document).ready(app.init)
 
 })(jQuery, window, document);

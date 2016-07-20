@@ -187,7 +187,7 @@
 
 		$('.form-screen').eq(0).addClass('activeSection');
 
-		this.$element.on('click', '.js-goNextSection', function() {
+		/*this.$element.on('click', '.js-goNextSection', function() {
 			var $current = $(this).closest('.form-screen');
 			var $next = $current.next();
 
@@ -200,7 +200,7 @@
 				'scrollTop': _this.$element.offset().top
 			}, 300);
 
-		});
+		});*/
 
 		this.$element.on('click', '.default-maket', function() {
 			_this.defProt = _this.backupMaket;
@@ -280,7 +280,7 @@
 
 
 
-		this.$element.on('click', '.js-goPrevSection', function() {
+		/*this.$element.on('click', '.js-goPrevSection', function() {
 			var $current = $(this).closest('.form-screen');
 			var $next = $current.prev();
 
@@ -293,11 +293,12 @@
 				'scrollTop': _this.$element.offset().top
 			}, 300);
 
-		});
+		});*/
 
 		$(document).on('click', '#popup-select button', function()
 		{
 			_this.popupSelect($(this));
+            $(this).addClass('active-button');
 		});
 
 		this.$element.on('click', '.finishOrder', function()
@@ -507,8 +508,6 @@
 				$('.'+targetName+'-img').attr('src', $img);
 				$('.'+targetName+'-img-inp').attr('value', $img);
 				$('.'+targetName+'-input').attr('value', elementId);
-				//$.fancybox.close();
-                //$.colorbox.close()
 				_this.changeMaket();
 			}
 		});
@@ -877,19 +876,6 @@
     
         nextLink.click(function(){
          if(!slideWrap.is(':animated')) {
-          slideWrap.animate({left: scrollSlider}, 500, function(){
-           slideWrap
-            .find('li:first')
-            .appendTo(slideWrap)
-            .parent()
-            .css({'left': 0});
-          });
-         }
-        });
-
-     
-        prevLink.click(function(){
-         if(!slideWrap.is(':animated')) {
           slideWrap
            .css({'left': scrollSlider})
            .find('li:last')
@@ -898,12 +884,27 @@
            .animate({left: 0}, 500);
          }
         });
+
+     
+        prevLink.click(function(){
+          
+        if(!slideWrap.is(':animated')) {
+          slideWrap.animate({left: scrollSlider}, 500, function(){
+           slideWrap
+            .find('li:first')
+            .appendTo(slideWrap)
+            .parent()
+            .css({'left': 0});
+          });
+         }  
+        });
         }
   
   /* иницилизируем функцию слайдера и загрузку вариантов форм*/
     $(document).ready(function(){
       loadShorts();
       loadTshirts();
+      
     })
     
     
@@ -918,6 +919,8 @@
   var loadShorts = function() {
     $('.select-shorts').load('bottom.html');
   }
+  
+  
                     
   
         
