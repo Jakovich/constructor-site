@@ -220,9 +220,7 @@ table {
 .complectsCountBtn,
 .submitDiscount,
 .choose-file,
-.btn::after {
-  background: #8ec63f;
-}
+
 .yel-grd-inv,
 .top-nav > ul li.active a,
 .tab-links li.active,
@@ -1004,11 +1002,9 @@ main .content h2 {
 #popup-select[data-target='bottom'] ul li button:hover {
   border: 3px solid #ffffff;
 }
-
 #popup-select ul li .active-button {
-   border: 3px solid #ffffff;
+  border: 3px solid #ffffff;
 }
-
 #popup-select[data-target='bottom'] ul li .active-button {
   border: 3px solid #ffffff;
 }
@@ -1042,51 +1038,7 @@ main .content h2 {
 .btn-wrp.right {
   text-align: right;
 }
-.btn {
-  border-radius: 5px;
-  color: #000;
-  display: inline-block;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: bold;
-  padding: 6px 20px 4px;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  z-index: 10;
-}
-.btn:focus,
-.btn.active {
-  outline: medium none;
-}
-.btn::before {
-  background: #ef940b none repeat scroll 0 0;
-  border-radius: 5px;
-  bottom: 0;
-  content: "";
-  display: block;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: all 0.2s ease-out 0s;
-  z-index: -1;
-}
-.btn::after {
-  border-radius: 5px;
-  bottom: 0;
-  content: "";
-  display: block;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -2;
-}
-.btn:hover::before {
-  opacity: 1;
-}
+
 .input-block {
   margin: 15px 0;
 }
@@ -2155,6 +2107,28 @@ main .content h2 {
 #constructor .total-wrp--price .tag {
   min-width: 0;
 }
+#constructor .total-wrp--third {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#constructor .total-wrp--third .tag {
+  min-width: 0;
+  height: auto;
+  padding: 0;
+}
+#constructor .total-wrp--third .next {
+  border-radius: 300px;
+  background-color: #f05f40;
+  font-weight: 700;
+  padding: 15px 30px;
+  font-size: 14px;
+  transition: all 0.35s ease 0s;
+}
+
+#constructor .total-wrp--third button:hover .next {
+  background-color: #ee4b28;
+}
+
 #constructor .services__block {
   min-height: 226px;
 }
@@ -2164,6 +2138,7 @@ main .content h2 {
 #constructor .orderInfo label {
   font-weight: normal;
 }
+
 @media (max-width: 1200px) {
   .tshirt-slider {
     width: 880px;
@@ -2190,13 +2165,11 @@ main .content h2 {
     width: 38px;
   }
 }
-
 @media (max-width: 992px) {
   .tshirt-slider {
     width: 660px;
   }
 }
-
 @media (max-width: 768px) {
   .tshirt-slider {
     width: 220px;

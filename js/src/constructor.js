@@ -24,10 +24,10 @@
             //color.init();
          
             var $preview = $('.preview');
-            /*
-            $preview.stick_in_parent({
-                offset_bottom: 0,
-                offset_top: 100
+            
+            /*$preview.stick_in_parent({
+                offset_bottom: 500,
+                offset_top: 500
             });*/
             
             
