@@ -19,26 +19,25 @@
     */
     var app = {
     	init: function() {
-            //fancy.init();
+           
             form.init();
-            //color.init();
+            
          
             var $preview = $('.preview');
             
-            /*$preview.stick_in_parent({
-                offset_bottom: 500,
-                offset_top: 500
-            });*/
+            $preview.stick_in_parent({
+                
+            });
             
             
 
             $('#constructor').construct({
-                afterStep: function() {
+                /*afterStep: function() {
                     $preview.trigger("sticky_kit:recalc");
-                },
-                afterInit: function() {
+                },*/
+                /*afterInit: function() {
                     $preview.trigger("sticky_kit:recalc");
-                }
+                }*/
             });
             //slider.init();
             /*$('#intro h1').gradientText({
@@ -184,8 +183,8 @@
                             form.hideLoader($el);
                         },
                         success: function( strData ){
-                            $.fancybox.close();
-                            $.fancybox($(strData), {padding: 0});
+                            /*$.fancybox.close();
+                            $.fancybox($(strData), {padding: 0});*/
                         }
                 });
             })

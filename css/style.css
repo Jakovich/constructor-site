@@ -561,7 +561,7 @@ main .content h2 {
 }
 #constructor .preview {
   padding-top: 10px;
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   top: 0;
 }
@@ -2027,7 +2027,7 @@ main .content h2 {
   padding-left: 0;
   padding-right: 0;
 }
-.tshirt-preview {}
+
 .short-preview {
   display: none;
 }

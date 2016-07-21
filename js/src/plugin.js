@@ -388,7 +388,7 @@
             loadShorts();
 		});
 
-		_this.options.afterInit();
+		/*_this.options.afterInit();*/
 		_this.changeComplectsCount();
 
 	};
