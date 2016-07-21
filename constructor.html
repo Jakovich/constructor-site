@@ -110,7 +110,7 @@
                       <div class="services__block col-lg-3 col-md-6 col-sm-6 text-center">
                         <div class="service-box">
                           <div class="rowJS thirt">
-                            <p class="h2-span">Футболка</p>
+                            <p class="h2-span wow bounceIn">Футболка</p>
                             <a class="select-popup">
                               <img width="87" height="84" alt="" src="assets/images/blank(1).png" class="top-img">
                               <input type="hidden" value="AS44" name="top[tshirt][typeID]" class="top-input">
@@ -142,7 +142,7 @@
                         <div class="service-box">
                           <div class="rowJS">
                             <div class="choice sleeves">
-                              <p class="h2-span">Рукава</p>
+                              <p class="h2-span wow bounceIn" data-wow-delay=".1s">Рукава</p>
                               <img width="87" alt="" src="img/sleeves.png">
                               <div class="color-block setted">
                                 <button data-source="top::tshirt" class="pick-color" type="button">
@@ -167,7 +167,7 @@
                         <div class="service-box">
                           <div class="rowJS">
                             <div class="choice shirtInserts">
-                              <p class="h2-span">Вставки</p>
+                              <p class="h2-span wow bounceIn" data-wow-delay=".2s">Вставки</p>
                               <img width="87" alt="" src="img/inserts.png">
                               <table class="checkbox__table">
                                 <tbody>
@@ -213,7 +213,7 @@
                           <div class="rowJS">
 
                             <div class="choice neck">
-                              <p class="h2-span">Воротник и манжеты
+                              <p class="h2-span wow bounceIn" data-wow-delay=".3s">Воротник и манжеты
                               </p>
                               <img width="87" alt="" src="img/neck.png">
                               <div class="color-block setted">
@@ -467,24 +467,24 @@
                       <div class="clear">
                         <div class="order-form-wrp">
                           <p class="input-block">
-                            <label for="">Имя</label>
-                            <input type="text" name="info[name]">
+                            <label for="info-name">Имя</label>
+                            <input type="text" name="info[name]" id="info-name">
                           </p>
 
                           <p class="input-block">
-                            <label for="">E-mail</label>
-                            <input type="email" name="info[email]" required="">
+                            <label for="info-email">E-mail</label>
+                            <input type="email" name="info[email]" required="" id="info-email">
                           </p>
 
                           <p class="input-block">
                             <label for="">Телефон</label>
-                            <input type="text" name="info[phone]" class="phone-input" autocomplete="off">
+                            <input type="text" name="info[phone]" class="phone-input" autocomplete="off" id="info-phone">
                           </p>
 
                           <p class="input-block">
-                            <label for="">Способ опплаты</label>
+                            <label for="info-payment">Способ опплаты</label>
                             <span class="select-wrp">
-                            <select name="info[payment]">
+                            <select name="info[payment]" id="info-payment">
 				              <option value="Наличными">Наличными</option>
 				              <option value="Безналичным расчетом">Безналичным расчетом</option>
 				    	    </select>
@@ -492,8 +492,8 @@
                           </p>
 
                           <p class="input-block">
-                            <label for="">Комментарий</label>
-                            <textarea rows="10" cols="30" id="" name="info[comment]"></textarea>
+                            <label for="info-comment">Комментарий</label>
+                            <textarea rows="10" cols="30" id="" name="info[comment]" id="info-comment"></textarea>
                           </p>
                         </div>
 
