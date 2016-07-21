@@ -39,19 +39,7 @@
                     $preview.trigger("sticky_kit:recalc");
                 }*/
             });
-            //slider.init();
-            /*$('#intro h1').gradientText({
-                    colors: ['#f9c203', '#dd6e0c']
-            });
-            $('#intro .h-span').gradientText({
-                    colors: ['#ffffff', '#d3d3d3']
-            });*/
-
-            /*$('#goToConstruct').on('click', function()
-            {
-                $('html, body').animate({ scrollTop: $('.construct-anc').offset().top }, 500);
-            });*/
-
+            
 
 
             $('[data-tooltip!=""]').qtip({ // Grab all elements with a non-blank data-tooltip attr.
