@@ -2139,6 +2139,11 @@ main .content h2 {
   font-weight: normal;
 }
 
+#constructor #contact .preview-parent {
+  display:flex; 
+  align-items: stretch
+}
+
 @media (max-width: 1200px) {
   .tshirt-slider {
     width: 880px;
@@ -2168,6 +2173,9 @@ main .content h2 {
 @media (max-width: 992px) {
   .tshirt-slider {
     width: 660px;
+  }
+  #constructor #contact .preview-parent {
+    display: block; 
   }
 }
 @media (max-width: 768px) {
