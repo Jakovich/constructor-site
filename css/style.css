@@ -1693,10 +1693,10 @@ main,
   cursor: pointer;
 }
 .tshirt-slider__nav--prev {
-  left: -40px;
+  left: -38px;
 }
 .tshirt-slider__nav--next {
-  right: -35px;
+  right: -38px;
   transform: rotate(180deg);
 }
 .form-screen {
