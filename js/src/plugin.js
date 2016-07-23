@@ -885,19 +885,6 @@
     
         nextLink.click(function(){
          if(!slideWrap.is(':animated')) {
-          slideWrap
-           .css({'left': scrollSlider})
-           .find('li:last')
-           .prependTo(slideWrap)
-           .parent()
-           .animate({left: 0}, 500);
-         }
-        });
-
-     
-        prevLink.click(function(){
-          
-        if(!slideWrap.is(':animated')) {
           slideWrap.animate({left: scrollSlider}, 500, function(){
            slideWrap
             .find('li:first')
@@ -905,7 +892,20 @@
             .parent()
             .css({'left': 0});
           });
-         }  
+         }
+        });
+
+     
+        prevLink.click(function(){
+          
+        if(!slideWrap.is(':animated')) {
+          slideWrap
+           .css({'left': scrollSlider})
+           .find('li:last')
+           .prependTo(slideWrap)
+           .parent()
+           .animate({left: 0}, 500);
+         }       
         });
         }
   
